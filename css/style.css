@@ -91,7 +91,7 @@ left: 108px;
 gap: 0px;
 opacity: 0px;
 border-radius: 50%;
-margin: 20px auto;
+margin: 10px auto;
 }
 
 #title{
@@ -102,16 +102,18 @@ display: block;
 display: block;
 }
 
-#start {
-border: black;
-background-color: black;
+#Start {
+ color: black;
+background-color: white; 
 width: 160px;
 height: 40px;
 top: 347px;
 left: 55px;
 gap: 0px;
 opacity: 0px;
-padding: 50px
+/* padding-bottom: 50px; */
+margin: auto;
+margin-bottom: 20px;
 }
 
 /* Card 3 */
