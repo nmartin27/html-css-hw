@@ -1,0 +1,150 @@
+
+#button1{
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 60px;
+    top: 67px;
+    left: 60px;
+    margin: 30px;
+}
+
+#button2{
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    top: 67px;
+    left: 300px;
+}
+
+.cards {
+    display: flex;
+}
+
+/* card blog 1 */
+.card1 { 
+    display: flex;
+    background-color: black;
+    width: 270px;
+    height: 270px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    opacity: 0px;
+    /* order: 1; */
+}
+
+.little {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 64px;
+    height: 64px;
+    top: 225px;
+    left: 110px;
+    gap: 0px;
+    border-radius: 8px; 
+}
+.card1bottom {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 270px;
+    height: 270px;
+    gap: 0px;
+    opacity: 0px;    
+    margin-top: 500px;
+    
+    /* order: 2; */
+}
+
+#special{
+    color: black;
+    padding: 10px
+}
+
+#more{
+    padding: 20px;
+}
+
+/* card pricing 1 */
+.card2 { 
+display: flex;
+flex-direction: column;
+text-align: center;
+background-color: white;
+width: 270px;
+height: 420px;
+border: 2px solid black;
+opacity: 0px;
+margin-left: 20px
+}
+
+.icon{
+display: flex;
+background-color: black;
+width: 54px;
+height: 54px;
+top: 29px;
+left: 108px;
+gap: 0px;
+opacity: 0px;
+border-radius: 50%;
+margin: 20px auto;
+}
+
+#title{
+display: block;
+}
+
+#subtitle{
+display: block;
+}
+
+#start {
+border: black;
+background-color: black;
+width: 160px;
+height: 40px;
+top: 347px;
+left: 55px;
+gap: 0px;
+opacity: 0px;
+padding: 50px
+}
+
+/* Card 3 */
+
+.card3{
+display: flex;
+/* flex-direction: column; */
+background-color: black;
+width: 370px;
+height: 370px;
+gap: 0px;
+opacity: 0px;
+margin-left: 20px;
+
+}
+
+#lorem{
+display: flex;
+color:black;
+background-color: white;
+width: 370px;
+height: 66px;
+top: 404px;
+gap: 0px;
+opacity: 0px;
+margin-top: 410px;
+font-size: 24px;
+}
+
+#learn{
+    display: flex;
+    color:black;
+    background-color: white;
+    margin-top: 410px;
+    font-size: 14px;
+}
